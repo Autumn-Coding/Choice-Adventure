@@ -13,6 +13,7 @@ def test(chapter):
         answered = True
       else:
         print("Sorry, that's not an option. Try again buddy. \n")
+    answered = False
   print(chapter[i]["text"] + "\nend")
 
   

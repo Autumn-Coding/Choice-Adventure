@@ -1,17 +1,28 @@
 chapter_one = {
   1 : {
-    "text" : "Hi",
+    "text" : "Hi! What's your favourite food?",
     "choices" : {
-      1 : {"text" : "Choice 1!", "path" : 2},
-      2 : {"text" : "Choice 2!", "path" : 3}
+      1 : {"text" : "Apples!", "path" : 2},
+      2 : {"text" : "Pears!", "path" : 3}
     }
   },
   2 : {
-    "text" : "yes",
-    "end" : True
+    "text" : "Nice! What kind?",
+    "choices" : {
+      1 : {"text" : "Granny Smith", "path" : 4},
+      2 : {"text" : "Golden Delicious", "path" : 5}
+    }
   },
   3 : {
-    "text" : "yea",
+    "text" : "Yum!",
+    "end" : True
+  },
+  4 : {
+    "text" : "Perfect for pies.",
+    "end" : True
+  },
+  5 : {
+    "text" : "Me too!",
     "end" : True
   }
 }
